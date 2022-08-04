@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/yacan8/valentine/issues"
   },
-  "homepage": "https://xiaoshuai1103.github.io/Confession/",
+  "homepage": "https://xiaoshuai1103/Confession",
   "dependencies": {
     "prismjs": "^1.17.1",
     "react": "16.0",
