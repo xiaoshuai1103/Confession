@@ -5,14 +5,14 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 const isDebug = process.env.NODE_ENV !== 'production';
-const host = '0.0.0.0';
+const host = '127.0.0.1';
 const port = 8080;
 
 const releasePath = path.resolve(__dirname, '../dist');
 
 const base = {
   entry: [path.join(process.cwd(), 'src/main')],
-  mode: isDebug ? 'development' : 'production',
+  mode: 'production',
   output: {
     publicPath: './',
     path: releasePath,
