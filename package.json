@@ -5,19 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.js",
-    "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.config.js"
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.config.js",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yacan8/valentine.git"
+    "url": "git+https://github.com/xiaoshuai1103/Confession.git"
   },
   "author": "can.yang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yacan8/valentine/issues"
+    "url": "https://github.com/xiaoshuai1103/Confession/issues"
   },
   "homepage": "https://xiaoshuai1103.github.io/Confession",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "prismjs": "^1.17.1",
     "react": "16.0",
     "react-dom": "16.0"
